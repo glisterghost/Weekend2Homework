@@ -10,7 +10,7 @@ def setup
   @guest1 = Guests.new("Bill")
   @guest2 = Guests.new("Bob")
   @guest3 = Guests.new("Barry")
-
+  @guest4 = Guests.new("Bjorn")
 end  
 
 def test_guest_name
